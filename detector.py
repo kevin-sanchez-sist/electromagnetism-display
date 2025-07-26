@@ -10,7 +10,7 @@ class ObjectDetector:
     def __init__(self):
         # Parámetros para la detección de objetos metálicos
         self.hsv_lower = np.array([0, 0, 100])  # Valores HSV mínimos para objetos brillantes
-        self.hsv_upper = np.array([180, 30, 255])  # Valores HSV máximos para objetos brillantes
+        self.hsv_upper = np.array([180, 80, 255])  # Valores HSV máximos para objetos brillantes
 
         # Parámetros para objetos metálicos más oscuros
         self.dark_metal_lower = np.array([0, 0, 20])
