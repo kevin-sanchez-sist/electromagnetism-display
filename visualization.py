@@ -9,9 +9,9 @@ import math
 class FieldVisualizer:
     def __init__(self):
         # Opciones de visualización
-        self.field_color = (0, 0, 255)  # Rojo para el campo (en BGR)
-        self.field_opacity = 0.5  # Opacidad del campo
-        self.arrow_size = 10  # Tamaño de las flechas de campo
+        self.field_color = (0, 255, 255)  # Rojo para el campo (en BGR)
+        self.field_opacity = 0.4  # Opacidad del campo
+        self.arrow_size = 15  # Tamaño de las flechas de campo
         self.flux_line_color = (255, 160, 0)  # Azul claro para líneas de flujo (en BGR)
         self.flux_line_thickness = 1  # Grosor de las líneas de flujo
 
